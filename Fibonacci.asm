@@ -15,8 +15,8 @@ Include Irvine32.inc
     error        BYTE 'That number was out of range, try again',0
     goodbye      BYTE 'Goodbye, ',0
 
-    justOne      BYTE '0',0     ;當我的值為1
-    justTwo      BYTE '0 1',0  ;當我的值為2
+    justOne      BYTE '0 1',0     ;當我的值為1
+    justTwo      BYTE '0 1 1',0  ;當我的值為2
     style      BYTE ' ',0
 
     lowerLimit= 1
@@ -73,7 +73,7 @@ userInput:          ;開始請使用者輸入
 
     ;接下來為輸入值2以上
     mov ecx,number
-    sub ecx,2
+    sub ecx,1
     mov eax,0
     call writeDec
     mov edx, OFFSET style
