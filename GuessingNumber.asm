@@ -2,7 +2,7 @@ INCLUDE irvine32.inc
 
 .data
 WinMessage1	BYTE "                |------------------------------------------------------|",0
-WinMessage2 BYTE "                | __          __    __                                 |",0      
+WinMessage2 	BYTE "                | __          __    __                                 |",0      
 WinMessage3	BYTE "                | \ \        / /   |  |                                |",0     
 WinMessage4	BYTE "                |  \ \  /\  / /___ |  | ____   ___   _ ___ __   ____   |",0 
 WinMessage5	BYTE "                |   \ \/  \/ /  _ \|  |/  __\ / _ \ | '_  '_ \ /  _ \  |",0 
