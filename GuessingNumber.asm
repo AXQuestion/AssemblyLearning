@@ -13,7 +13,7 @@ WinMessage8	BYTE "                |---------------------------------------------
 p1 BYTE "The guessed number is lower than the currect range",0
 p2 BYTE "The guessed number is higher than the current range",0
 p3 BYTE "Congratulation! You got it.",0
-congratz BYTE "Congratulation! You got it.",0
+congratz BYTE "Congratulation! You got it.",0            ;抱歉錄的時候未做修改，執行程式時並無此行
 p4 BYTE "The number you guessed is invalid!",0
 p5 BYTE "Please enter a number: ",0
 
