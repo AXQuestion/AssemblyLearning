@@ -29,7 +29,7 @@ playAgain BYTE "| Play Again? Input Y for Yes, N for No: |",0
 seeYouAgain BYTE "| Welp,thats all. See you again. :) |",0
 inputAgain BYTE "Y","y",0
 
-printStyle MACRO                        ;設定排版的樣式
+printStyle MACRO                        ;設定標題與p5排版的樣式
          mov edx,OFFSET WinMessage1
          call  writeString
          call crlf
